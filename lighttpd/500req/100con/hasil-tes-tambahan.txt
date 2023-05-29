@@ -1,0 +1,90 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 45.32.110.83 (be patient)
+
+
+Server Software:        lighttpd/1.4.59
+Server Hostname:        45.32.110.83
+Server Port:            80
+
+Document Path:          /
+Document Length:        1447350 bytes
+
+Concurrency Level:      100
+Time taken for tests:   13.761 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      723757500 bytes
+HTML transferred:       723675000 bytes
+Requests per second:    36.33 [#/sec] (mean)
+Time per request:       2752.223 [ms] (mean)
+Time per request:       27.522 [ms] (mean, across all concurrent requests)
+Transfer rate:          51361.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       17   27   6.9     28      76
+Processing:   159 2291 544.5   2228    4697
+Waiting:       24  163 260.6     54    1184
+Total:        176 2319 544.6   2259    4715
+
+Percentage of the requests served within a certain time (ms)
+  50%   2259
+  66%   2335
+  75%   2444
+  80%   2516
+  90%   3076
+  95%   3417
+  98%   3638
+  99%   3988
+ 100%   4715 (longest request)
+ 
+===================================
+ 
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 45.32.110.83 (be patient)
+
+
+Server Software:        lighttpd/1.4.59
+Server Hostname:        45.32.110.83
+Server Port:            80
+
+Document Path:          /
+Document Length:        1447350 bytes
+
+Concurrency Level:      100
+Time taken for tests:   13.638 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      723757500 bytes
+HTML transferred:       723675000 bytes
+Requests per second:    36.66 [#/sec] (mean)
+Time per request:       2727.528 [ms] (mean)
+Time per request:       27.275 [ms] (mean, across all concurrent requests)
+Transfer rate:          51826.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       17   30  48.6     25    1042
+Processing:   149 2418 472.2   2388    4520
+Waiting:       23  129 169.8     62     799
+Total:        167 2448 474.4   2417    4539
+
+Percentage of the requests served within a certain time (ms)
+  50%   2417
+  66%   2519
+  75%   2617
+  80%   2740
+  90%   2985
+  95%   3213
+  98%   3747
+  99%   3986
+ 100%   4539 (longest request)
+ 
+===================================
+ 
